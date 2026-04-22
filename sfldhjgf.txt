@@ -1,0 +1,82 @@
+section {
+
+    height: 75vh; 
+    
+    
+    width: 80%;          
+    margin: 20px auto;    
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center; 
+    
+    position: relative;
+ 
+}
+
+#textcenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+.teste1{
+    position: sticky; 
+    left: 100000px;
+    bottom: 390px;
+}
+.teste2{
+    position: sticky;
+    right: 1860px;
+    bottom: 390px;
+    z-index: 0;
+}
+#text1{
+     text-decoration: none;
+    font-family: 'lentesoculares', sans-serif;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    position: sticky;
+    left: 27px;
+    bottom: 450px;
+    writing-mode: vertical-rl;
+    text-combine-upright: none; 
+    transition: transform 0.5s ease; 
+    cursor: pointer; 
+
+}
+#text1:hover{
+    transform: rotate(-90deg);
+}
+
+#text2{
+     text-decoration: none;
+    font-family: 'lentesoculares', sans-serif;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+    display: block;
+    position: sticky;
+    left: 2000px;
+    bottom: 450px;
+    writing-mode: vertical-rl;
+    text-combine-upright: none;
+}
+#blocao hr{
+    border: 0;
+    height: 1px;
+    background: black;
+    z-index: 99;
+    position: relative;
+    right: 1px;
+    top: 130px;
+    width: ;    
+}
+ <div class="image02"><img src="images/g2.jpg" alt=""></div>
+        <div class="image03"><img src="images/g3.jpg" alt=""></div>
+        <div class="image04"><img src="images/g4.jpg" alt=""></div>
+         border: 3px solid red;
